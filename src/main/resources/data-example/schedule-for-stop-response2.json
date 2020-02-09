@@ -1,0 +1,4175 @@
+{
+	"version": 2,
+	"status": "OK",
+	"code": 200,
+	"text": "OK",
+	"currentTime": 1581257373400,
+	"data": {
+		"limitExceeded": false,
+		"entry": {
+			"stopId": "BKK_F02784",
+			"serviceDate": "20200209",
+			"routeIds": [
+				"BKK_4800",
+				"BKK_4801",
+				"BKK_1300",
+				"BKK_1310",
+				"BKK_1440",
+				"BKK_2310",
+				"BKK_9070"
+			],
+			"nearbyStopIds": [],
+			"alertIds": [],
+			"schedules": [
+				{
+					"routeId": "BKK_1310",
+					"alertIds": [],
+					"directions": [
+						{
+							"directionId": "1",
+							"groups": {
+								"Örs vezér tere M+H": {
+									"groupId": "Örs vezér tere M+H",
+									"headsign": "Örs vezér tere M+H",
+									"description": "131-es Kisszentmihály, Baross utca indulással"
+								}
+							},
+							"stopTimes": [
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581219480,
+									"departureTime": 1581219480,
+									"predictedArrivalTime": 1581219460,
+									"predictedDepartureTime": 1581219460,
+									"tripId": "BKK_C0763466",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581221880,
+									"departureTime": 1581221880,
+									"predictedArrivalTime": 1581221859,
+									"predictedDepartureTime": 1581221859,
+									"tripId": "BKK_C0763465",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581223740,
+									"departureTime": 1581223740,
+									"predictedArrivalTime": 1581223718,
+									"predictedDepartureTime": 1581223718,
+									"tripId": "BKK_C076342",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581225540,
+									"departureTime": 1581225540,
+									"predictedArrivalTime": 1581225572,
+									"predictedDepartureTime": 1581225577,
+									"tripId": "BKK_C076344",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581227340,
+									"departureTime": 1581227340,
+									"predictedArrivalTime": 1581227286,
+									"predictedDepartureTime": 1581227294,
+									"tripId": "BKK_C076346",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581229200,
+									"departureTime": 1581229200,
+									"predictedArrivalTime": 1581229175,
+									"predictedDepartureTime": 1581229175,
+									"tripId": "BKK_C076348",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581231000,
+									"departureTime": 1581231000,
+									"predictedArrivalTime": 1581231027,
+									"predictedDepartureTime": 1581231027,
+									"tripId": "BKK_C0763410",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581232800,
+									"departureTime": 1581232800,
+									"predictedArrivalTime": 1581232819,
+									"predictedDepartureTime": 1581232825,
+									"tripId": "BKK_C0763412",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581234600,
+									"departureTime": 1581234600,
+									"predictedArrivalTime": 1581234687,
+									"predictedDepartureTime": 1581234694,
+									"tripId": "BKK_C0763414",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581236400,
+									"departureTime": 1581236400,
+									"predictedArrivalTime": 1581236501,
+									"predictedDepartureTime": 1581236503,
+									"tripId": "BKK_C0763416",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581238260,
+									"departureTime": 1581238260,
+									"predictedArrivalTime": 1581238363,
+									"predictedDepartureTime": 1581238366,
+									"tripId": "BKK_C0763418",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581240060,
+									"departureTime": 1581240060,
+									"predictedArrivalTime": 1581240090,
+									"predictedDepartureTime": 1581240100,
+									"tripId": "BKK_C0763420",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581241860,
+									"departureTime": 1581241860,
+									"predictedArrivalTime": 1581241961,
+									"predictedDepartureTime": 1581241968,
+									"tripId": "BKK_C0763422",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581243660,
+									"departureTime": 1581243660,
+									"predictedArrivalTime": 1581243718,
+									"predictedDepartureTime": 1581243718,
+									"tripId": "BKK_C0763424",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581245460,
+									"departureTime": 1581245460,
+									"predictedArrivalTime": 1581245559,
+									"predictedDepartureTime": 1581245562,
+									"tripId": "BKK_C0763426",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581247260,
+									"departureTime": 1581247260,
+									"predictedArrivalTime": 1581247302,
+									"predictedDepartureTime": 1581247302,
+									"tripId": "BKK_C0763428",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581249060,
+									"departureTime": 1581249060,
+									"predictedArrivalTime": 1581248966,
+									"predictedDepartureTime": 1581248966,
+									"tripId": "BKK_C0763430",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581250860,
+									"departureTime": 1581250860,
+									"predictedArrivalTime": 1581250890,
+									"predictedDepartureTime": 1581250893,
+									"tripId": "BKK_C0763432",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581252660,
+									"departureTime": 1581252660,
+									"predictedArrivalTime": 1581252620,
+									"predictedDepartureTime": 1581252625,
+									"tripId": "BKK_C0763434",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581254460,
+									"departureTime": 1581254460,
+									"predictedArrivalTime": 1581254570,
+									"predictedDepartureTime": 1581254575,
+									"tripId": "BKK_C0763436",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581256260,
+									"departureTime": 1581256260,
+									"predictedArrivalTime": 1581256295,
+									"predictedDepartureTime": 1581256306,
+									"tripId": "BKK_C0763438",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581258060,
+									"departureTime": 1581258060,
+									"predictedArrivalTime": 1581258111,
+									"predictedDepartureTime": 1581258111,
+									"tripId": "BKK_C0763440",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581259860,
+									"departureTime": 1581259860,
+									"tripId": "BKK_C0763442",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581261660,
+									"departureTime": 1581261660,
+									"tripId": "BKK_C0763444",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581263460,
+									"departureTime": 1581263460,
+									"tripId": "BKK_C0763446",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581265260,
+									"departureTime": 1581265260,
+									"tripId": "BKK_C0763448",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581267060,
+									"departureTime": 1581267060,
+									"tripId": "BKK_C0763450",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581268860,
+									"departureTime": 1581268860,
+									"tripId": "BKK_C0763452",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581270600,
+									"departureTime": 1581270600,
+									"tripId": "BKK_C0763454",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581272400,
+									"departureTime": 1581272400,
+									"tripId": "BKK_C0763456",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581274200,
+									"departureTime": 1581274200,
+									"tripId": "BKK_C0763458",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581276000,
+									"departureTime": 1581276000,
+									"tripId": "BKK_C0763460",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581277740,
+									"departureTime": 1581277740,
+									"tripId": "BKK_C0763462",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581279420,
+									"departureTime": 1581279420,
+									"tripId": "BKK_C0763464",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"routeId": "BKK_1300",
+					"alertIds": [],
+					"directions": [
+						{
+							"directionId": "1",
+							"groups": {
+								"Puskás Ferenc Stadion M": {
+									"groupId": "Puskás Ferenc Stadion M",
+									"headsign": "Puskás Ferenc Stadion M",
+									"description": "130-as Újpalota, Sárfű utca-tól Puskás Ferenc Stadion M-ig Nyírpalota út betéréssel"
+								}
+							},
+							"stopTimes": [
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581221940,
+									"departureTime": 1581221940,
+									"predictedArrivalTime": 1581222039,
+									"predictedDepartureTime": 1581222039,
+									"tripId": "BKK_C063404",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581223140,
+									"departureTime": 1581223140,
+									"tripId": "BKK_C063406",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581224340,
+									"departureTime": 1581224340,
+									"predictedArrivalTime": 1581224340,
+									"predictedDepartureTime": 1581224344,
+									"tripId": "BKK_C0634010",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581225540,
+									"departureTime": 1581225540,
+									"predictedArrivalTime": 1581225593,
+									"predictedDepartureTime": 1581225597,
+									"tripId": "BKK_C0634012",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581226740,
+									"departureTime": 1581226740,
+									"predictedArrivalTime": 1581226745,
+									"predictedDepartureTime": 1581226745,
+									"tripId": "BKK_C0634014",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581227820,
+									"departureTime": 1581227820,
+									"predictedArrivalTime": 1581227962,
+									"predictedDepartureTime": 1581227967,
+									"tripId": "BKK_C0634016",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581229020,
+									"departureTime": 1581229020,
+									"predictedArrivalTime": 1581229077,
+									"predictedDepartureTime": 1581229077,
+									"tripId": "BKK_C0634018",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581230220,
+									"departureTime": 1581230220,
+									"predictedArrivalTime": 1581230347,
+									"predictedDepartureTime": 1581230358,
+									"tripId": "BKK_C0634020",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581231420,
+									"departureTime": 1581231420,
+									"predictedArrivalTime": 1581231544,
+									"predictedDepartureTime": 1581231545,
+									"tripId": "BKK_C0634022",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581232620,
+									"departureTime": 1581232620,
+									"predictedArrivalTime": 1581232750,
+									"predictedDepartureTime": 1581232761,
+									"tripId": "BKK_C0634024",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581233820,
+									"departureTime": 1581233820,
+									"predictedArrivalTime": 1581234102,
+									"predictedDepartureTime": 1581234102,
+									"tripId": "BKK_C0634026",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581235080,
+									"departureTime": 1581235080,
+									"predictedArrivalTime": 1581235240,
+									"predictedDepartureTime": 1581235240,
+									"tripId": "BKK_C0634028",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581236160,
+									"departureTime": 1581236160,
+									"predictedArrivalTime": 1581236355,
+									"predictedDepartureTime": 1581236361,
+									"tripId": "BKK_C0634030",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581237060,
+									"departureTime": 1581237060,
+									"predictedArrivalTime": 1581237242,
+									"predictedDepartureTime": 1581237255,
+									"tripId": "BKK_C0634032",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581237960,
+									"departureTime": 1581237960,
+									"predictedArrivalTime": 1581237999,
+									"predictedDepartureTime": 1581238013,
+									"tripId": "BKK_C0634034",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581238860,
+									"departureTime": 1581238860,
+									"predictedArrivalTime": 1581239134,
+									"predictedDepartureTime": 1581239137,
+									"tripId": "BKK_C0634036",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581239760,
+									"departureTime": 1581239760,
+									"predictedArrivalTime": 1581239875,
+									"predictedDepartureTime": 1581239883,
+									"tripId": "BKK_C0634038",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581240660,
+									"departureTime": 1581240660,
+									"predictedArrivalTime": 1581240922,
+									"predictedDepartureTime": 1581240935,
+									"tripId": "BKK_C0634040",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581241560,
+									"departureTime": 1581241560,
+									"predictedArrivalTime": 1581241669,
+									"predictedDepartureTime": 1581241678,
+									"tripId": "BKK_C0634042",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581242460,
+									"departureTime": 1581242460,
+									"predictedArrivalTime": 1581242722,
+									"predictedDepartureTime": 1581242736,
+									"tripId": "BKK_C0634044",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581243360,
+									"departureTime": 1581243360,
+									"predictedArrivalTime": 1581243556,
+									"predictedDepartureTime": 1581243556,
+									"tripId": "BKK_C0634046",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581244260,
+									"departureTime": 1581244260,
+									"predictedArrivalTime": 1581244451,
+									"predictedDepartureTime": 1581244469,
+									"tripId": "BKK_C0634048",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581245160,
+									"departureTime": 1581245160,
+									"predictedArrivalTime": 1581245353,
+									"predictedDepartureTime": 1581245353,
+									"tripId": "BKK_C0634050",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581246060,
+									"departureTime": 1581246060,
+									"predictedArrivalTime": 1581246100,
+									"predictedDepartureTime": 1581246106,
+									"tripId": "BKK_C0634052",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581246960,
+									"departureTime": 1581246960,
+									"predictedArrivalTime": 1581247159,
+									"predictedDepartureTime": 1581247161,
+									"tripId": "BKK_C0634054",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581247860,
+									"departureTime": 1581247860,
+									"predictedArrivalTime": 1581247968,
+									"predictedDepartureTime": 1581247979,
+									"tripId": "BKK_C0634056",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581248760,
+									"departureTime": 1581248760,
+									"predictedArrivalTime": 1581248864,
+									"predictedDepartureTime": 1581248869,
+									"tripId": "BKK_C0634058",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581249660,
+									"departureTime": 1581249660,
+									"predictedArrivalTime": 1581249924,
+									"predictedDepartureTime": 1581249934,
+									"tripId": "BKK_C0634060",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581250560,
+									"departureTime": 1581250560,
+									"predictedArrivalTime": 1581250667,
+									"predictedDepartureTime": 1581250678,
+									"tripId": "BKK_C0634062",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581251460,
+									"departureTime": 1581251460,
+									"predictedArrivalTime": 1581251736,
+									"predictedDepartureTime": 1581251737,
+									"tripId": "BKK_C0634064",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581252360,
+									"departureTime": 1581252360,
+									"predictedArrivalTime": 1581252919,
+									"predictedDepartureTime": 1581252926,
+									"tripId": "BKK_C0634066",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581253260,
+									"departureTime": 1581253260,
+									"predictedArrivalTime": 1581253436,
+									"predictedDepartureTime": 1581253442,
+									"tripId": "BKK_C0634068",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581254160,
+									"departureTime": 1581254160,
+									"predictedArrivalTime": 1581254190,
+									"predictedDepartureTime": 1581254208,
+									"tripId": "BKK_C0634070",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581255060,
+									"departureTime": 1581255060,
+									"predictedArrivalTime": 1581255320,
+									"predictedDepartureTime": 1581255325,
+									"tripId": "BKK_C0634072",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581255960,
+									"departureTime": 1581255960,
+									"predictedArrivalTime": 1581256069,
+									"predictedDepartureTime": 1581256077,
+									"tripId": "BKK_C0634074",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581257760,
+									"departureTime": 1581257760,
+									"predictedArrivalTime": 1581257342,
+									"predictedDepartureTime": 1581257353,
+									"tripId": "BKK_C0634078",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581256860,
+									"departureTime": 1581256860,
+									"predictedArrivalTime": 1581257858,
+									"predictedDepartureTime": 1581257858,
+									"tripId": "BKK_C0634076",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581258660,
+									"departureTime": 1581258660,
+									"predictedArrivalTime": 1581258783,
+									"predictedDepartureTime": 1581258783,
+									"tripId": "BKK_C0634080",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581259560,
+									"departureTime": 1581259560,
+									"tripId": "BKK_C0634082",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581260460,
+									"departureTime": 1581260460,
+									"tripId": "BKK_C0634084",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581261360,
+									"departureTime": 1581261360,
+									"predictedArrivalTime": 1581261488,
+									"predictedDepartureTime": 1581261488,
+									"tripId": "BKK_C0634086",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581262260,
+									"departureTime": 1581262260,
+									"tripId": "BKK_C0634088",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581263160,
+									"departureTime": 1581263160,
+									"tripId": "BKK_C0634090",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581264060,
+									"departureTime": 1581264060,
+									"tripId": "BKK_C0634092",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581264960,
+									"departureTime": 1581264960,
+									"tripId": "BKK_C0634094",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581265860,
+									"departureTime": 1581265860,
+									"tripId": "BKK_C0634096",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581266760,
+									"departureTime": 1581266760,
+									"tripId": "BKK_C0634098",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581267660,
+									"departureTime": 1581267660,
+									"tripId": "BKK_C06340100",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581268560,
+									"departureTime": 1581268560,
+									"tripId": "BKK_C06340102",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581269460,
+									"departureTime": 1581269460,
+									"tripId": "BKK_C06340104",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581270360,
+									"departureTime": 1581270360,
+									"tripId": "BKK_C06340106",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581271260,
+									"departureTime": 1581271260,
+									"tripId": "BKK_C06340108",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581272160,
+									"departureTime": 1581272160,
+									"tripId": "BKK_C06340110",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581273060,
+									"departureTime": 1581273060,
+									"tripId": "BKK_C06340112",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581273960,
+									"departureTime": 1581273960,
+									"tripId": "BKK_C06340114",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581274920,
+									"departureTime": 1581274920,
+									"tripId": "BKK_C06340116",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581275880,
+									"departureTime": 1581275880,
+									"tripId": "BKK_C06340118",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581277080,
+									"departureTime": 1581277080,
+									"tripId": "BKK_C06340120",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581278400,
+									"departureTime": 1581278400,
+									"tripId": "BKK_C06340124",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581279420,
+									"departureTime": 1581279420,
+									"tripId": "BKK_C06340126",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581280620,
+									"departureTime": 1581280620,
+									"tripId": "BKK_C06340128",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581281820,
+									"departureTime": 1581281820,
+									"tripId": "BKK_C06340130",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581283020,
+									"departureTime": 1581283020,
+									"tripId": "BKK_C06340132",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581284220,
+									"departureTime": 1581284220,
+									"tripId": "BKK_C06340136",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Puskás Ferenc Stadion M",
+									"arrivalTime": 1581285420,
+									"departureTime": 1581285420,
+									"tripId": "BKK_C06340138",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Puskás Ferenc Stadion M"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"routeId": "BKK_1440",
+					"alertIds": [],
+					"directions": [
+						{
+							"directionId": "1",
+							"groups": {
+								"Örs vezér tere M+H": {
+									"groupId": "Örs vezér tere M+H",
+									"headsign": "Örs vezér tere M+H",
+									"description": "144-es Rákosszentmihály, Csömöri út-tól Örs vezér tere M+H-ig"
+								}
+							},
+							"stopTimes": [
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581218280,
+									"departureTime": 1581218280,
+									"predictedArrivalTime": 1581218320,
+									"predictedDepartureTime": 1581218320,
+									"tripId": "BKK_C086943",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581220080,
+									"departureTime": 1581220080,
+									"predictedArrivalTime": 1581220116,
+									"predictedDepartureTime": 1581220116,
+									"tripId": "BKK_C086946",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581221940,
+									"departureTime": 1581221940,
+									"predictedArrivalTime": 1581221973,
+									"predictedDepartureTime": 1581221973,
+									"tripId": "BKK_C0869412",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581223140,
+									"departureTime": 1581223140,
+									"tripId": "BKK_C0869415",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581224340,
+									"departureTime": 1581224340,
+									"predictedArrivalTime": 1581224310,
+									"predictedDepartureTime": 1581224310,
+									"tripId": "BKK_C0869418",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581225600,
+									"departureTime": 1581225600,
+									"predictedArrivalTime": 1581225607,
+									"predictedDepartureTime": 1581225636,
+									"tripId": "BKK_C0869421",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581226740,
+									"departureTime": 1581226740,
+									"predictedArrivalTime": 1581226760,
+									"predictedDepartureTime": 1581226762,
+									"tripId": "BKK_C0869424",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581227940,
+									"departureTime": 1581227940,
+									"predictedArrivalTime": 1581227981,
+									"predictedDepartureTime": 1581227986,
+									"tripId": "BKK_C0869427",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581229140,
+									"departureTime": 1581229140,
+									"predictedArrivalTime": 1581229086,
+									"predictedDepartureTime": 1581229086,
+									"tripId": "BKK_C0869435",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581230340,
+									"departureTime": 1581230340,
+									"predictedArrivalTime": 1581230304,
+									"predictedDepartureTime": 1581230304,
+									"tripId": "BKK_C0869468",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581231540,
+									"departureTime": 1581231540,
+									"predictedArrivalTime": 1581231570,
+									"predictedDepartureTime": 1581231583,
+									"tripId": "BKK_C0869471",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581232440,
+									"departureTime": 1581232440,
+									"predictedArrivalTime": 1581232396,
+									"predictedDepartureTime": 1581232409,
+									"tripId": "BKK_C0869474",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581233340,
+									"departureTime": 1581233340,
+									"predictedArrivalTime": 1581233364,
+									"predictedDepartureTime": 1581233377,
+									"tripId": "BKK_C0869480",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581234240,
+									"departureTime": 1581234240,
+									"predictedArrivalTime": 1581234265,
+									"predictedDepartureTime": 1581234281,
+									"tripId": "BKK_C08694104",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581235140,
+									"departureTime": 1581235140,
+									"predictedArrivalTime": 1581235159,
+									"predictedDepartureTime": 1581235164,
+									"tripId": "BKK_C08694107",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581236040,
+									"departureTime": 1581236040,
+									"predictedArrivalTime": 1581236058,
+									"predictedDepartureTime": 1581236070,
+									"tripId": "BKK_C08694110",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581236940,
+									"departureTime": 1581236940,
+									"predictedArrivalTime": 1581236955,
+									"predictedDepartureTime": 1581236980,
+									"tripId": "BKK_C08694116",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581237840,
+									"departureTime": 1581237840,
+									"predictedArrivalTime": 1581237938,
+									"predictedDepartureTime": 1581237941,
+									"tripId": "BKK_C08694119",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581238740,
+									"departureTime": 1581238740,
+									"predictedArrivalTime": 1581238765,
+									"predictedDepartureTime": 1581238773,
+									"tripId": "BKK_C08694122",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581239640,
+									"departureTime": 1581239640,
+									"predictedArrivalTime": 1581239661,
+									"predictedDepartureTime": 1581239661,
+									"tripId": "BKK_C08694125",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581240540,
+									"departureTime": 1581240540,
+									"predictedArrivalTime": 1581240561,
+									"predictedDepartureTime": 1581240571,
+									"tripId": "BKK_C08694278",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581241440,
+									"departureTime": 1581241440,
+									"predictedArrivalTime": 1581241471,
+									"predictedDepartureTime": 1581241471,
+									"tripId": "BKK_C08694202",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581242340,
+									"departureTime": 1581242340,
+									"predictedArrivalTime": 1581242439,
+									"predictedDepartureTime": 1581242451,
+									"tripId": "BKK_C08694205",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581243240,
+									"departureTime": 1581243240,
+									"predictedArrivalTime": 1581243261,
+									"predictedDepartureTime": 1581243261,
+									"tripId": "BKK_C08694211",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581244140,
+									"departureTime": 1581244140,
+									"predictedArrivalTime": 1581244087,
+									"predictedDepartureTime": 1581244101,
+									"tripId": "BKK_C08694214",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581245040,
+									"departureTime": 1581245040,
+									"predictedArrivalTime": 1581245066,
+									"predictedDepartureTime": 1581245078,
+									"tripId": "BKK_C08694217",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581245940,
+									"departureTime": 1581245940,
+									"predictedArrivalTime": 1581245962,
+									"predictedDepartureTime": 1581246005,
+									"tripId": "BKK_C08694287",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581246840,
+									"departureTime": 1581246840,
+									"predictedArrivalTime": 1581246939,
+									"predictedDepartureTime": 1581246946,
+									"tripId": "BKK_C08694290",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581247620,
+									"departureTime": 1581247620,
+									"predictedArrivalTime": 1581247687,
+									"predictedDepartureTime": 1581247687,
+									"tripId": "BKK_C08694293",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581248520,
+									"departureTime": 1581248520,
+									"predictedArrivalTime": 1581248510,
+									"predictedDepartureTime": 1581248516,
+									"tripId": "BKK_C08694296",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581249420,
+									"departureTime": 1581249420,
+									"predictedArrivalTime": 1581249440,
+									"predictedDepartureTime": 1581249440,
+									"tripId": "BKK_C08694299",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581250320,
+									"departureTime": 1581250320,
+									"predictedArrivalTime": 1581250254,
+									"predictedDepartureTime": 1581250254,
+									"tripId": "BKK_C08694302",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581251220,
+									"departureTime": 1581251220,
+									"predictedArrivalTime": 1581251281,
+									"predictedDepartureTime": 1581251292,
+									"tripId": "BKK_C08694305",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581252120,
+									"departureTime": 1581252120,
+									"predictedArrivalTime": 1581252106,
+									"predictedDepartureTime": 1581252123,
+									"tripId": "BKK_C08694308",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581253020,
+									"departureTime": 1581253020,
+									"predictedArrivalTime": 1581253012,
+									"predictedDepartureTime": 1581253020,
+									"tripId": "BKK_C08694311",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581253920,
+									"departureTime": 1581253920,
+									"predictedArrivalTime": 1581253982,
+									"predictedDepartureTime": 1581253990,
+									"tripId": "BKK_C08694314",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581254820,
+									"departureTime": 1581254820,
+									"predictedArrivalTime": 1581254882,
+									"predictedDepartureTime": 1581254893,
+									"tripId": "BKK_C08694317",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581255720,
+									"departureTime": 1581255720,
+									"predictedArrivalTime": 1581255711,
+									"predictedDepartureTime": 1581255723,
+									"tripId": "BKK_C08694320",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581256620,
+									"departureTime": 1581256620,
+									"predictedArrivalTime": 1581256753,
+									"predictedDepartureTime": 1581256759,
+									"tripId": "BKK_C08694323",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581257520,
+									"departureTime": 1581257520,
+									"predictedArrivalTime": 1581257672,
+									"predictedDepartureTime": 1581257672,
+									"tripId": "BKK_C08694326",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581258420,
+									"departureTime": 1581258420,
+									"tripId": "BKK_C08694329",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581259320,
+									"departureTime": 1581259320,
+									"tripId": "BKK_C08694332",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581260220,
+									"departureTime": 1581260220,
+									"tripId": "BKK_C08694335",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581261120,
+									"departureTime": 1581261120,
+									"tripId": "BKK_C08694338",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581262020,
+									"departureTime": 1581262020,
+									"tripId": "BKK_C08694341",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581262920,
+									"departureTime": 1581262920,
+									"tripId": "BKK_C08694359",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581263820,
+									"departureTime": 1581263820,
+									"tripId": "BKK_C08694365",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581264720,
+									"departureTime": 1581264720,
+									"tripId": "BKK_C08694368",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581265620,
+									"departureTime": 1581265620,
+									"tripId": "BKK_C08694371",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581266520,
+									"departureTime": 1581266520,
+									"tripId": "BKK_C08694377",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581267420,
+									"departureTime": 1581267420,
+									"tripId": "BKK_C08694380",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581268320,
+									"departureTime": 1581268320,
+									"tripId": "BKK_C08694383",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581269220,
+									"departureTime": 1581269220,
+									"tripId": "BKK_C08694386",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581270000,
+									"departureTime": 1581270000,
+									"tripId": "BKK_C08694389",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581270900,
+									"departureTime": 1581270900,
+									"tripId": "BKK_C08694392",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581271800,
+									"departureTime": 1581271800,
+									"tripId": "BKK_C08694395",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581272700,
+									"departureTime": 1581272700,
+									"tripId": "BKK_C08694398",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581273600,
+									"departureTime": 1581273600,
+									"tripId": "BKK_C08694401",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581274500,
+									"departureTime": 1581274500,
+									"tripId": "BKK_C08694404",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581275400,
+									"departureTime": 1581275400,
+									"tripId": "BKK_C08694407",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581276240,
+									"departureTime": 1581276240,
+									"tripId": "BKK_C08694413",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581277140,
+									"departureTime": 1581277140,
+									"tripId": "BKK_C08694425",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581278040,
+									"departureTime": 1581278040,
+									"tripId": "BKK_C08694428",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581278940,
+									"departureTime": 1581278940,
+									"tripId": "BKK_C08694431",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581280080,
+									"departureTime": 1581280080,
+									"tripId": "BKK_C08694434",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581281280,
+									"departureTime": 1581281280,
+									"tripId": "BKK_C08694440",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581282360,
+									"departureTime": 1581282360,
+									"tripId": "BKK_C08694443",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581283560,
+									"departureTime": 1581283560,
+									"tripId": "BKK_C08694446",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581284760,
+									"departureTime": 1581284760,
+									"tripId": "BKK_C08694449",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581285960,
+									"departureTime": 1581285960,
+									"tripId": "BKK_C08694452",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581287040,
+									"departureTime": 1581287040,
+									"tripId": "BKK_C08694455",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"routeId": "BKK_2310",
+					"alertIds": [],
+					"directions": [
+						{
+							"directionId": "1",
+							"groups": {
+								"Örs vezér tere M+H": {
+									"groupId": "Örs vezér tere M+H",
+									"headsign": "Örs vezér tere M+H",
+									"description": "231-es Rákospalota, Széchenyi tér-tól Örs vezér tere M+H-ig"
+								}
+							},
+							"stopTimes": [
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581220680,
+									"departureTime": 1581220680,
+									"predictedArrivalTime": 1581220655,
+									"predictedDepartureTime": 1581220655,
+									"tripId": "BKK_C07634109",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581222480,
+									"departureTime": 1581222480,
+									"predictedArrivalTime": 1581222513,
+									"predictedDepartureTime": 1581222519,
+									"tripId": "BKK_C07634108",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581224280,
+									"departureTime": 1581224280,
+									"predictedArrivalTime": 1581224365,
+									"predictedDepartureTime": 1581224365,
+									"tripId": "BKK_C07634113",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581226080,
+									"departureTime": 1581226080,
+									"predictedArrivalTime": 1581226110,
+									"predictedDepartureTime": 1581226110,
+									"tripId": "BKK_C07634115",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581227880,
+									"departureTime": 1581227880,
+									"predictedArrivalTime": 1581227940,
+									"predictedDepartureTime": 1581227946,
+									"tripId": "BKK_C07634117",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581229740,
+									"departureTime": 1581229740,
+									"predictedArrivalTime": 1581229761,
+									"predictedDepartureTime": 1581229761,
+									"tripId": "BKK_C07634116",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581231540,
+									"departureTime": 1581231540,
+									"predictedArrivalTime": 1581231612,
+									"predictedDepartureTime": 1581231616,
+									"tripId": "BKK_C07634118",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581233400,
+									"departureTime": 1581233400,
+									"predictedArrivalTime": 1581233418,
+									"predictedDepartureTime": 1581233427,
+									"tripId": "BKK_C07634119",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581235200,
+									"departureTime": 1581235200,
+									"predictedArrivalTime": 1581235215,
+									"predictedDepartureTime": 1581235219,
+									"tripId": "BKK_C07634120",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581237060,
+									"departureTime": 1581237060,
+									"predictedArrivalTime": 1581237094,
+									"predictedDepartureTime": 1581237098,
+									"tripId": "BKK_C07634121",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581238860,
+									"departureTime": 1581238860,
+									"predictedArrivalTime": 1581238884,
+									"predictedDepartureTime": 1581238892,
+									"tripId": "BKK_C07634122",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581240660,
+									"departureTime": 1581240660,
+									"predictedArrivalTime": 1581240693,
+									"predictedDepartureTime": 1581240699,
+									"tripId": "BKK_C07634123",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581242460,
+									"departureTime": 1581242460,
+									"predictedArrivalTime": 1581242438,
+									"predictedDepartureTime": 1581242438,
+									"tripId": "BKK_C07634124",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581244260,
+									"departureTime": 1581244260,
+									"predictedArrivalTime": 1581244289,
+									"predictedDepartureTime": 1581244296,
+									"tripId": "BKK_C07634125",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581246060,
+									"departureTime": 1581246060,
+									"predictedArrivalTime": 1581246162,
+									"predictedDepartureTime": 1581246168,
+									"tripId": "BKK_C07634126",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581247860,
+									"departureTime": 1581247860,
+									"predictedArrivalTime": 1581247890,
+									"predictedDepartureTime": 1581247894,
+									"tripId": "BKK_C07634127",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581249660,
+									"departureTime": 1581249660,
+									"predictedArrivalTime": 1581249785,
+									"predictedDepartureTime": 1581249801,
+									"tripId": "BKK_C07634128",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581251460,
+									"departureTime": 1581251460,
+									"predictedArrivalTime": 1581251511,
+									"predictedDepartureTime": 1581251511,
+									"tripId": "BKK_C07634129",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581253260,
+									"departureTime": 1581253260,
+									"predictedArrivalTime": 1581253368,
+									"predictedDepartureTime": 1581253376,
+									"tripId": "BKK_C07634130",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581255060,
+									"departureTime": 1581255060,
+									"predictedArrivalTime": 1581255020,
+									"predictedDepartureTime": 1581255026,
+									"tripId": "BKK_C07634131",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581256860,
+									"departureTime": 1581256860,
+									"predictedArrivalTime": 1581256826,
+									"predictedDepartureTime": 1581256833,
+									"tripId": "BKK_C07634132",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581258660,
+									"departureTime": 1581258660,
+									"predictedArrivalTime": 1581258660,
+									"predictedDepartureTime": 1581258660,
+									"tripId": "BKK_C07634133",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581260460,
+									"departureTime": 1581260460,
+									"tripId": "BKK_C07634134",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581262260,
+									"departureTime": 1581262260,
+									"tripId": "BKK_C07634135",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581264060,
+									"departureTime": 1581264060,
+									"tripId": "BKK_C07634136",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581265860,
+									"departureTime": 1581265860,
+									"tripId": "BKK_C07634137",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581267660,
+									"departureTime": 1581267660,
+									"tripId": "BKK_C07634138",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581269460,
+									"departureTime": 1581269460,
+									"tripId": "BKK_C07634139",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581271260,
+									"departureTime": 1581271260,
+									"tripId": "BKK_C07634140",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581273060,
+									"departureTime": 1581273060,
+									"tripId": "BKK_C07634141",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581274800,
+									"departureTime": 1581274800,
+									"tripId": "BKK_C07634142",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581276540,
+									"departureTime": 1581276540,
+									"tripId": "BKK_C07634143",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581278340,
+									"departureTime": 1581278340,
+									"tripId": "BKK_C07634144",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581280140,
+									"departureTime": 1581280140,
+									"tripId": "BKK_C07634145",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581281760,
+									"departureTime": 1581281760,
+									"tripId": "BKK_C07634148",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581283560,
+									"departureTime": 1581283560,
+									"tripId": "BKK_C07634150",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								},
+								{
+									"stopHeadsign": "Örs vezér tere M+H",
+									"arrivalTime": 1581285360,
+									"departureTime": 1581285360,
+									"tripId": "BKK_C07634151",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Örs vezér tere M+H"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"routeId": "BKK_9070",
+					"alertIds": [],
+					"directions": [
+						{
+							"directionId": "1",
+							"groups": {
+								"Kelenföld vasútállomás M": {
+									"groupId": "Kelenföld vasútállomás M",
+									"headsign": "Kelenföld vasútállomás M",
+									"description": "907-es Zsivora park betéréssel"
+								}
+							},
+							"stopTimes": [
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581204000,
+									"departureTime": 1581204000,
+									"tripId": "BKK_C0843114",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581205800,
+									"departureTime": 1581205800,
+									"predictedArrivalTime": 1581205896,
+									"predictedDepartureTime": 1581205896,
+									"tripId": "BKK_C0843119",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581207600,
+									"departureTime": 1581207600,
+									"predictedArrivalTime": 1581207675,
+									"predictedDepartureTime": 1581207675,
+									"tripId": "BKK_C0843134",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581209400,
+									"departureTime": 1581209400,
+									"predictedArrivalTime": 1581209502,
+									"predictedDepartureTime": 1581209507,
+									"tripId": "BKK_C0843144",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581211200,
+									"departureTime": 1581211200,
+									"predictedArrivalTime": 1581211213,
+									"predictedDepartureTime": 1581211213,
+									"tripId": "BKK_C0843154",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581213000,
+									"departureTime": 1581213000,
+									"tripId": "BKK_C0843164",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581214800,
+									"departureTime": 1581214800,
+									"predictedArrivalTime": 1581214787,
+									"predictedDepartureTime": 1581214791,
+									"tripId": "BKK_C0843169",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581216600,
+									"departureTime": 1581216600,
+									"predictedArrivalTime": 1581216617,
+									"predictedDepartureTime": 1581216617,
+									"tripId": "BKK_C0843174",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								},
+								{
+									"stopHeadsign": "Kelenföld vasútállomás M",
+									"arrivalTime": 1581288600,
+									"departureTime": 1581288600,
+									"tripId": "BKK_C084329",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Kelenföld vasútállomás M"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"routeId": "BKK_4800",
+					"alertIds": [],
+					"directions": [
+						{
+							"directionId": "1",
+							"groups": {
+								"Keleti pályaudvar M": {
+									"groupId": "Keleti pályaudvar M",
+									"headsign": "Keleti pályaudvar M",
+									"description": "80-as Örs vezér tere M+H-tól Keleti pályaudvar M-ig"
+								},
+								" GARÁZSMENET  Puskás F. Stadion M": {
+									"groupId": " GARÁZSMENET  Puskás F. Stadion M",
+									"headsign": " GARÁZSMENET  Puskás F. Stadion M",
+									"description": "80-as Örs vezér tere M+H-tól Puskás Ferenc Stadion M-ig"
+								}
+							},
+							"stopTimes": [
+								{
+									"stopHeadsign": " GARÁZSMENET  Puskás F. Stadion M",
+									"arrivalTime": 1581203100,
+									"departureTime": 1581203100,
+									"tripId": "BKK_C0413611967",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										" GARÁZSMENET  Puskás F. Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": " GARÁZSMENET  Puskás F. Stadion M",
+									"arrivalTime": 1581203700,
+									"departureTime": 1581203700,
+									"tripId": "BKK_C0413611971",
+									"serviceDate": "20200208",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										" GARÁZSMENET  Puskás F. Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581219480,
+									"departureTime": 1581219480,
+									"predictedArrivalTime": 1581219540,
+									"predictedDepartureTime": 1581219540,
+									"tripId": "BKK_C041379427",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581220380,
+									"departureTime": 1581220380,
+									"predictedArrivalTime": 1581220400,
+									"predictedDepartureTime": 1581220407,
+									"tripId": "BKK_C041376",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581221220,
+									"departureTime": 1581221220,
+									"predictedArrivalTime": 1581221290,
+									"predictedDepartureTime": 1581221304,
+									"uncertain": true,
+									"tripId": "BKK_C04137709",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581222420,
+									"departureTime": 1581222420,
+									"predictedArrivalTime": 1581222437,
+									"predictedDepartureTime": 1581222443,
+									"tripId": "BKK_C0413712899",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581223620,
+									"departureTime": 1581223620,
+									"predictedArrivalTime": 1581223642,
+									"predictedDepartureTime": 1581223649,
+									"tripId": "BKK_C04137713",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581224820,
+									"departureTime": 1581224820,
+									"predictedArrivalTime": 1581224951,
+									"predictedDepartureTime": 1581224962,
+									"tripId": "BKK_C04137717",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581226020,
+									"departureTime": 1581226020,
+									"predictedArrivalTime": 1581226090,
+									"predictedDepartureTime": 1581226098,
+									"tripId": "BKK_C04137721",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581227220,
+									"departureTime": 1581227220,
+									"predictedArrivalTime": 1581227313,
+									"predictedDepartureTime": 1581227318,
+									"tripId": "BKK_C04137725",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581228420,
+									"departureTime": 1581228420,
+									"predictedArrivalTime": 1581228509,
+									"predictedDepartureTime": 1581228527,
+									"tripId": "BKK_C04137729",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581229620,
+									"departureTime": 1581229620,
+									"predictedArrivalTime": 1581229645,
+									"predictedDepartureTime": 1581229648,
+									"tripId": "BKK_C041373710",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581230820,
+									"departureTime": 1581230820,
+									"predictedArrivalTime": 1581230912,
+									"predictedDepartureTime": 1581230923,
+									"tripId": "BKK_C041373714",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581231420,
+									"departureTime": 1581231420,
+									"predictedArrivalTime": 1581231445,
+									"predictedDepartureTime": 1581231451,
+									"tripId": "BKK_C041373722",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581232020,
+									"departureTime": 1581232020,
+									"predictedArrivalTime": 1581232059,
+									"predictedDepartureTime": 1581232075,
+									"tripId": "BKK_C041373726",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581232620,
+									"departureTime": 1581232620,
+									"predictedArrivalTime": 1581232640,
+									"predictedDepartureTime": 1581232650,
+									"tripId": "BKK_C041373730",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581233220,
+									"departureTime": 1581233220,
+									"predictedArrivalTime": 1581233333,
+									"predictedDepartureTime": 1581233345,
+									"tripId": "BKK_C041373734",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581233820,
+									"departureTime": 1581233820,
+									"predictedArrivalTime": 1581233922,
+									"predictedDepartureTime": 1581233933,
+									"tripId": "BKK_C041373742",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581234420,
+									"departureTime": 1581234420,
+									"predictedArrivalTime": 1581234387,
+									"predictedDepartureTime": 1581234396,
+									"tripId": "BKK_C0413713101",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581235020,
+									"departureTime": 1581235020,
+									"predictedArrivalTime": 1581235049,
+									"predictedDepartureTime": 1581235053,
+									"tripId": "BKK_C0413713105",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581235620,
+									"departureTime": 1581235620,
+									"predictedArrivalTime": 1581235813,
+									"predictedDepartureTime": 1581235816,
+									"tripId": "BKK_C0413713109",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581236220,
+									"departureTime": 1581236220,
+									"predictedArrivalTime": 1581236309,
+									"predictedDepartureTime": 1581236314,
+									"tripId": "BKK_C0413713117",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581236820,
+									"departureTime": 1581236820,
+									"predictedArrivalTime": 1581236992,
+									"predictedDepartureTime": 1581236999,
+									"tripId": "BKK_C0413713121",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581237420,
+									"departureTime": 1581237420,
+									"predictedArrivalTime": 1581237592,
+									"predictedDepartureTime": 1581237624,
+									"tripId": "BKK_C0413713133",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581238020,
+									"departureTime": 1581238020,
+									"predictedArrivalTime": 1581238133,
+									"predictedDepartureTime": 1581238138,
+									"tripId": "BKK_C0413713137",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581238620,
+									"departureTime": 1581238620,
+									"predictedArrivalTime": 1581238732,
+									"predictedDepartureTime": 1581238744,
+									"tripId": "BKK_C0413713145",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581239220,
+									"departureTime": 1581239220,
+									"predictedArrivalTime": 1581239253,
+									"predictedDepartureTime": 1581239260,
+									"tripId": "BKK_C0413713149",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581239820,
+									"departureTime": 1581239820,
+									"predictedArrivalTime": 1581240007,
+									"predictedDepartureTime": 1581240015,
+									"tripId": "BKK_C0413713153",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581240420,
+									"departureTime": 1581240420,
+									"predictedArrivalTime": 1581240420,
+									"predictedDepartureTime": 1581240420,
+									"tripId": "BKK_C0413713161",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581241020,
+									"departureTime": 1581241020,
+									"predictedArrivalTime": 1581241185,
+									"predictedDepartureTime": 1581241199,
+									"tripId": "BKK_C0413713165",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581241620,
+									"departureTime": 1581241620,
+									"predictedArrivalTime": 1581241710,
+									"predictedDepartureTime": 1581241716,
+									"tripId": "BKK_C0413713169",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581242220,
+									"departureTime": 1581242220,
+									"predictedArrivalTime": 1581242258,
+									"predictedDepartureTime": 1581242265,
+									"tripId": "BKK_C0413713181",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581242820,
+									"departureTime": 1581242820,
+									"predictedArrivalTime": 1581242934,
+									"predictedDepartureTime": 1581242942,
+									"tripId": "BKK_C0413713193",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581243420,
+									"departureTime": 1581243420,
+									"tripId": "BKK_C0413713213",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581244020,
+									"departureTime": 1581244020,
+									"predictedArrivalTime": 1581244210,
+									"predictedDepartureTime": 1581244222,
+									"tripId": "BKK_C0413713217",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581244620,
+									"departureTime": 1581244620,
+									"predictedArrivalTime": 1581244734,
+									"predictedDepartureTime": 1581244741,
+									"tripId": "BKK_C0413713221",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581245220,
+									"departureTime": 1581245220,
+									"predictedArrivalTime": 1581245220,
+									"predictedDepartureTime": 1581245220,
+									"tripId": "BKK_C0413713229",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581245820,
+									"departureTime": 1581245820,
+									"predictedArrivalTime": 1581246011,
+									"predictedDepartureTime": 1581246018,
+									"tripId": "BKK_C0413713233",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581246420,
+									"departureTime": 1581246420,
+									"predictedArrivalTime": 1581246463,
+									"predictedDepartureTime": 1581246466,
+									"tripId": "BKK_C0413713237",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581246960,
+									"departureTime": 1581246960,
+									"predictedArrivalTime": 1581247132,
+									"predictedDepartureTime": 1581247140,
+									"tripId": "BKK_C0413713249",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581247500,
+									"departureTime": 1581247500,
+									"predictedArrivalTime": 1581247656,
+									"predictedDepartureTime": 1581247668,
+									"tripId": "BKK_C0413713253",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581248040,
+									"departureTime": 1581248040,
+									"predictedArrivalTime": 1581248184,
+									"predictedDepartureTime": 1581248191,
+									"tripId": "BKK_C0413713261",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581248580,
+									"departureTime": 1581248580,
+									"predictedArrivalTime": 1581248765,
+									"predictedDepartureTime": 1581248777,
+									"tripId": "BKK_C0413713265",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581249120,
+									"departureTime": 1581249120,
+									"predictedArrivalTime": 1581249229,
+									"predictedDepartureTime": 1581249271,
+									"tripId": "BKK_C0413713269",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581249660,
+									"departureTime": 1581249660,
+									"predictedArrivalTime": 1581249730,
+									"predictedDepartureTime": 1581249737,
+									"tripId": "BKK_C0413713273",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581250200,
+									"departureTime": 1581250200,
+									"predictedArrivalTime": 1581250201,
+									"predictedDepartureTime": 1581250207,
+									"tripId": "BKK_C0413713384",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581250740,
+									"departureTime": 1581250740,
+									"predictedArrivalTime": 1581250809,
+									"predictedDepartureTime": 1581250819,
+									"tripId": "BKK_C0413713388",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581251280,
+									"departureTime": 1581251280,
+									"predictedArrivalTime": 1581251487,
+									"predictedDepartureTime": 1581251497,
+									"tripId": "BKK_C0413713392",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581251820,
+									"departureTime": 1581251820,
+									"predictedArrivalTime": 1581251933,
+									"predictedDepartureTime": 1581251941,
+									"tripId": "BKK_C0413713396",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581252300,
+									"departureTime": 1581252300,
+									"predictedArrivalTime": 1581252459,
+									"predictedDepartureTime": 1581252467,
+									"tripId": "BKK_C0413713400",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581252840,
+									"departureTime": 1581252840,
+									"predictedArrivalTime": 1581252885,
+									"predictedDepartureTime": 1581252892,
+									"tripId": "BKK_C0413713404",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581253380,
+									"departureTime": 1581253380,
+									"predictedArrivalTime": 1581253488,
+									"predictedDepartureTime": 1581253488,
+									"tripId": "BKK_C0413713408",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581253860,
+									"departureTime": 1581253860,
+									"predictedArrivalTime": 1581253946,
+									"predictedDepartureTime": 1581253958,
+									"tripId": "BKK_C0413713412",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581254400,
+									"departureTime": 1581254400,
+									"predictedArrivalTime": 1581254484,
+									"predictedDepartureTime": 1581254492,
+									"tripId": "BKK_C0413713416",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581254880,
+									"departureTime": 1581254880,
+									"predictedArrivalTime": 1581255083,
+									"predictedDepartureTime": 1581255093,
+									"tripId": "BKK_C0413713420",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581255420,
+									"departureTime": 1581255420,
+									"predictedArrivalTime": 1581255592,
+									"predictedDepartureTime": 1581255599,
+									"tripId": "BKK_C0413713424",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581255900,
+									"departureTime": 1581255900,
+									"predictedArrivalTime": 1581255963,
+									"predictedDepartureTime": 1581255966,
+									"tripId": "BKK_C0413713428",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581256440,
+									"departureTime": 1581256440,
+									"predictedArrivalTime": 1581256585,
+									"predictedDepartureTime": 1581256593,
+									"tripId": "BKK_C0413713432",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581256920,
+									"departureTime": 1581256920,
+									"predictedArrivalTime": 1581257031,
+									"predictedDepartureTime": 1581257037,
+									"tripId": "BKK_C0413713436",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581257460,
+									"departureTime": 1581257460,
+									"predictedArrivalTime": 1581257535,
+									"predictedDepartureTime": 1581257535,
+									"tripId": "BKK_C0413713440",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581258000,
+									"departureTime": 1581258000,
+									"predictedArrivalTime": 1581258000,
+									"predictedDepartureTime": 1581258000,
+									"tripId": "BKK_C0413713444",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581258540,
+									"departureTime": 1581258540,
+									"tripId": "BKK_C0413713448",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581259080,
+									"departureTime": 1581259080,
+									"tripId": "BKK_C0413713452",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581259560,
+									"departureTime": 1581259560,
+									"tripId": "BKK_C0413713456",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581260100,
+									"departureTime": 1581260100,
+									"tripId": "BKK_C0413713460",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581260640,
+									"departureTime": 1581260640,
+									"tripId": "BKK_C0413713464",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581261120,
+									"departureTime": 1581261120,
+									"tripId": "BKK_C0413713468",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581261660,
+									"departureTime": 1581261660,
+									"tripId": "BKK_C0413713476",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581262140,
+									"departureTime": 1581262140,
+									"tripId": "BKK_C0413713480",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581262680,
+									"departureTime": 1581262680,
+									"tripId": "BKK_C0413713484",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581263160,
+									"departureTime": 1581263160,
+									"tripId": "BKK_C0413713488",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581263700,
+									"departureTime": 1581263700,
+									"tripId": "BKK_C0413713492",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581264240,
+									"departureTime": 1581264240,
+									"tripId": "BKK_C0413713496",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581264720,
+									"departureTime": 1581264720,
+									"tripId": "BKK_C0413713504",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581265260,
+									"departureTime": 1581265260,
+									"tripId": "BKK_C0413713508",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581265740,
+									"departureTime": 1581265740,
+									"tripId": "BKK_C0413713512",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581266280,
+									"departureTime": 1581266280,
+									"tripId": "BKK_C0413713516",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581266760,
+									"departureTime": 1581266760,
+									"tripId": "BKK_C0413713520",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581267300,
+									"departureTime": 1581267300,
+									"tripId": "BKK_C0413713532",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581267840,
+									"departureTime": 1581267840,
+									"tripId": "BKK_C0413713536",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581268320,
+									"departureTime": 1581268320,
+									"tripId": "BKK_C0413713540",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581268860,
+									"departureTime": 1581268860,
+									"tripId": "BKK_C0413713544",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581269340,
+									"departureTime": 1581269340,
+									"tripId": "BKK_C0413713738",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581269880,
+									"departureTime": 1581269880,
+									"tripId": "BKK_C0413713742",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581270360,
+									"departureTime": 1581270360,
+									"tripId": "BKK_C0413713750",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581270900,
+									"departureTime": 1581270900,
+									"tripId": "BKK_C0413713754",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581271440,
+									"departureTime": 1581271440,
+									"tripId": "BKK_C0413713758",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581271920,
+									"departureTime": 1581271920,
+									"tripId": "BKK_C0413713762",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581272460,
+									"departureTime": 1581272460,
+									"tripId": "BKK_C0413714856",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581272940,
+									"departureTime": 1581272940,
+									"tripId": "BKK_C0413714860",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581273480,
+									"departureTime": 1581273480,
+									"tripId": "BKK_C0413714872",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581274020,
+									"departureTime": 1581274020,
+									"tripId": "BKK_C0413714876",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581274560,
+									"departureTime": 1581274560,
+									"tripId": "BKK_C0413714880",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581275160,
+									"departureTime": 1581275160,
+									"tripId": "BKK_C0413714884",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581275760,
+									"departureTime": 1581275760,
+									"tripId": "BKK_C0413714892",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581276360,
+									"departureTime": 1581276360,
+									"tripId": "BKK_C0413714900",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581276960,
+									"departureTime": 1581276960,
+									"tripId": "BKK_C0413714904",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581277560,
+									"departureTime": 1581277560,
+									"tripId": "BKK_C0413714908",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581278160,
+									"departureTime": 1581278160,
+									"tripId": "BKK_C0413714912",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581278760,
+									"departureTime": 1581278760,
+									"tripId": "BKK_C0413714920",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581279360,
+									"departureTime": 1581279360,
+									"tripId": "BKK_C0413714928",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581279960,
+									"departureTime": 1581279960,
+									"tripId": "BKK_C0413714976",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581280560,
+									"departureTime": 1581280560,
+									"tripId": "BKK_C0413714980",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581281160,
+									"departureTime": 1581281160,
+									"tripId": "BKK_C0413714988",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581281760,
+									"departureTime": 1581281760,
+									"tripId": "BKK_C0413714992",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581282360,
+									"departureTime": 1581282360,
+									"tripId": "BKK_C0413714996",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581282960,
+									"departureTime": 1581282960,
+									"tripId": "BKK_C0413715000",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581283560,
+									"departureTime": 1581283560,
+									"tripId": "BKK_C0413715004",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581284160,
+									"departureTime": 1581284160,
+									"tripId": "BKK_C0413715008",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581284700,
+									"departureTime": 1581284700,
+									"tripId": "BKK_C0413715012",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581285300,
+									"departureTime": 1581285300,
+									"tripId": "BKK_C0413715016",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581285900,
+									"departureTime": 1581285900,
+									"tripId": "BKK_C0413715020",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581286500,
+									"departureTime": 1581286500,
+									"tripId": "BKK_C0413715024",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581287100,
+									"departureTime": 1581287100,
+									"tripId": "BKK_C0413715028",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": "Keleti pályaudvar M",
+									"arrivalTime": 1581287700,
+									"departureTime": 1581287700,
+									"tripId": "BKK_C0413715032",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										"Keleti pályaudvar M"
+									]
+								},
+								{
+									"stopHeadsign": " GARÁZSMENET  Puskás F. Stadion M",
+									"arrivalTime": 1581288300,
+									"departureTime": 1581288300,
+									"tripId": "BKK_C0413715036",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										" GARÁZSMENET  Puskás F. Stadion M"
+									]
+								},
+								{
+									"stopHeadsign": " GARÁZSMENET  Puskás F. Stadion M",
+									"arrivalTime": 1581288900,
+									"departureTime": 1581288900,
+									"tripId": "BKK_C0413715040",
+									"serviceDate": "20200209",
+									"wheelchairAccessible": true,
+									"groupIds": [
+										" GARÁZSMENET  Puskás F. Stadion M"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		"class": "entryWithReferences"
+	}
+}

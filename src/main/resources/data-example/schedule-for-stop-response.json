@@ -1,0 +1,39 @@
+{
+   "version":2,
+   "status":"OK",
+   "code":200,
+   "text":"OK",
+   "currentTime":1581257373400,
+   "data":{
+      "limitExceeded":false,
+      "entry":{
+         "stopId":"BKK_F02784",
+         "serviceDate":"20200209",
+         "schedules":[
+            {
+               "routeId":"BKK_1310",
+               "alertIds":[
+
+               ],
+               "directions":[
+                  {
+                     "directionId":"1",
+                     "stopTimes":[
+                        {
+                           "stopHeadsign":"Örs vezér tere M+H",
+                           "arrivalTime":1581219480,
+                           "departureTime":1581219480,
+                           "predictedArrivalTime":1581219460,
+                           "predictedDepartureTime":1581219460,
+                           "tripId":"BKK_C0763466",
+                           "serviceDate":"20200209",
+                           "wheelchairAccessible":true
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}
