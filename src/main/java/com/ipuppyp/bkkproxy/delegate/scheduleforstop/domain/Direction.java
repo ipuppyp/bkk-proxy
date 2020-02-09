@@ -1,5 +1,5 @@
 
-package com.ipuppyp.bkk.delegate.scheduleforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "directionId",
     "stopTimes"
 })
-@JsonIgnoreProperties({"groups"})
+@JsonIgnoreProperties(ignoreUnknown = true)
 @lombok.Data
 public class Direction {
 

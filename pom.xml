@@ -9,13 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ipuppyp</groupId>
-	<artifactId>bkk</artifactId>
+	<artifactId>bkkproxy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bkk</name>
 	<description>BKK proxy for Arduino Uno+ESP8266</description>
 
 	<properties>
 		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>

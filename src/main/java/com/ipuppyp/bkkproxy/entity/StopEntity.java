@@ -1,4 +1,4 @@
-package com.ipuppyp.bkk.entity;
+package com.ipuppyp.bkkproxy.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

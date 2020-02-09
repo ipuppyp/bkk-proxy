@@ -1,4 +1,4 @@
-package com.ipuppyp.bkk.domain;
+package com.ipuppyp.bkkproxy.domain;
 
 import java.util.Collection;
 
@@ -14,6 +14,6 @@ public class Stop {
 	
 	private String name;
 	
-	private Collection<Schedule> schedules;
+	private Collection<StopTime> stopTimes;
 	
 }

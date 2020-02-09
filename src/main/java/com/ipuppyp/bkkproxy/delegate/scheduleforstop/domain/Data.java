@@ -1,5 +1,5 @@
 
-package com.ipuppyp.bkk.delegate.scheduleforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "limitExceeded",
     "entry"
 })
-@JsonIgnoreProperties({"class"})
+@JsonIgnoreProperties(ignoreUnknown = true)
 @lombok.Data
 public class Data {
 

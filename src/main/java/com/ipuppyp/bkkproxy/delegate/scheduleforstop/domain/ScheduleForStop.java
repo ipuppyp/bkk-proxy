@@ -1,5 +1,5 @@
 
-package com.ipuppyp.bkk.delegate.scheduleforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
