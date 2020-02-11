@@ -1,32 +1,30 @@
 package com.ipuppyp.bkkproxy;
 
-import java.util.Collection;
-
+import org.apache.http.client.HttpClient;
+import org.apache.http.conn.ssl.NoopHostnameVerifier;
+import org.apache.http.impl.client.HttpClients;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
+import org.springframework.web.client.RestTemplate;
 
-import com.ipuppyp.bkkproxy.domain.Stop;
 import com.ipuppyp.bkkproxy.entity.StopEntity;
 import com.ipuppyp.bkkproxy.repository.StopRepository;
-import com.ipuppyp.bkkproxy.service.ScheduleForStopService;
 
 @SpringBootApplication
-public class BkkProxyApplication {
+public class BkkProxyApplication extends SpringBootServletInitializer {
 
 	 
 	@Autowired
 	private StopRepository stopRepository;
 	
-	@Autowired
-	ScheduleForStopService scheduleForStopService; 
-	
 	public static void main(String[] args) {
 		SpringApplication.run(BkkProxyApplication.class, args);
-		
 	}
 	
 	@Bean
@@ -39,13 +37,18 @@ public class BkkProxyApplication {
 			stop.setEnabled(Boolean.TRUE);
 			stopRepository.save(stop);
 
-//			Collection<Stop> findAllSchedules = scheduleForStopService.findAllSchedules();
-//			System.out.println(findAllSchedules);
-//			
-//			System.exit(-1);
-
-
 		};
 	}
+	
+	@Bean
+	public RestTemplate restTemplate() {
+		HttpClient httpClient = HttpClients.custom()
+                .setSSLHostnameVerifier(new NoopHostnameVerifier())
+                .build();
+		HttpComponentsClientHttpRequestFactory requestFactory = new HttpComponentsClientHttpRequestFactory();
+		requestFactory.setHttpClient(httpClient);
+		return new RestTemplate(requestFactory);
+	}
+	
 
 }
