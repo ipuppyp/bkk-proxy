@@ -4,12 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.ipuppyp.bkkproxy.delegate.arrivalsanddeparturesforstop.domain.ArrivalsAndDeparturesForStop;
+import com.ipuppyp.bkkproxy.delegate.domain.arrivalsanddeparturesforstop.ArrivalsAndDeparturesForStop;
 
 @Component
 public class ArrivalsAndDeparturesForStopApiDelegate {
 
-	private static final String API_URL = "https://futar.bkk.hu/api/query/v1/ws/otp/api/where/arrivals-and-departures-for-stop.json?includeReferences=trips&onlyDepartures=true&limit=100&minutesBefore=0&minutesAfter=100&stopId=";
+	private static final String API_URL = "https://futar.bkk.hu/api/query/v1/ws/otp/api/where/arrivals-and-departures-for-stop.json?includeReferences=trips,routes&onlyDepartures=true&limit=100&minutesBefore=0&minutesAfter=100&stopId=";
 	
 	@Autowired
 	private RestTemplate restTemplate;

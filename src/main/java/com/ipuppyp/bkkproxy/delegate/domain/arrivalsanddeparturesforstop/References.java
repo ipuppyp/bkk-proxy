@@ -1,6 +1,6 @@
-package com.ipuppyp.bkkproxy.delegate.arrivalsanddeparturesforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.domain.arrivalsanddeparturesforstop;
 
-import java.util.List;
+import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -8,13 +8,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-@JsonPropertyOrder({ "stopId", "routeIds", "alertIds", "nearbyStopIds", "stopTimes" })
+@JsonPropertyOrder({ "routes", "trips" })
 @JsonIgnoreProperties(ignoreUnknown = true)
 @lombok.Data
-public class Entry {
+public class References {
 
-	@JsonProperty("stopId")
-	private String stopId;
-	@JsonProperty("stopTimes")
-	private List<StopTime> stopTimes = null;
+	@JsonProperty("routes")
+	private Map<String, Route> routes;
+
+	@JsonProperty("trips")
+	private Map<String, Trip> trips;
 }

@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class StopTime {
 
-	private String stopHeadsign;
+	private String tripHeadsign;
 	
 	private String routeId;
 	

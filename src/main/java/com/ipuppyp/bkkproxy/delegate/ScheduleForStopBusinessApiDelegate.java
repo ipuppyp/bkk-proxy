@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain.ScheduleForStop;
+import com.ipuppyp.bkkproxy.delegate.domain.scheduleforstop.ScheduleForStop;
 
 @Component
 public class ScheduleForStopBusinessApiDelegate {

@@ -1,4 +1,4 @@
-package com.ipuppyp.bkkproxy.delegate.arrivalsanddeparturesforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.domain.arrivalsanddeparturesforstop;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

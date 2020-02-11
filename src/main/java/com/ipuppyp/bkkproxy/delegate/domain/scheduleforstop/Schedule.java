@@ -1,5 +1,5 @@
 
-package com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.domain.scheduleforstop;
 
 import java.util.List;
 

@@ -1,0 +1,866 @@
+{
+	"version": 2,
+	"status": "OK",
+	"code": 200,
+	"text": "OK",
+	"currentTime": 1581431179054,
+	"data": {
+		"limitExceeded": false,
+		"entry": {
+			"stopId": "BKK_F02784",
+			"routeIds": [
+				"BKK_4800",
+				"BKK_4801",
+				"BKK_1300",
+				"BKK_1310",
+				"BKK_1440",
+				"BKK_2310",
+				"BKK_9070"
+			],
+			"alertIds": [],
+			"nearbyStopIds": [],
+			"stopTimes": [
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581431280,
+					"departureTime": 1581431280,
+					"predictedArrivalTime": 1581431300,
+					"predictedDepartureTime": 1581431300,
+					"tripId": "BKK_C0413461716",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581431580,
+					"departureTime": 1581431580,
+					"tripId": "BKK_C0413461721",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581431400,
+					"departureTime": 1581431400,
+					"predictedArrivalTime": 1581431583,
+					"predictedDepartureTime": 1581431583,
+					"tripId": "BKK_C08507612",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581431880,
+					"departureTime": 1581431880,
+					"tripId": "BKK_C0413461726",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Puskás Ferenc Stadion M",
+					"arrivalTime": 1581431760,
+					"departureTime": 1581431760,
+					"predictedArrivalTime": 1581431901,
+					"predictedDepartureTime": 1581431901,
+					"tripId": "BKK_C0862396",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581432180,
+					"departureTime": 1581432180,
+					"tripId": "BKK_C0413461731",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581432060,
+					"departureTime": 1581432060,
+					"predictedArrivalTime": 1581432184,
+					"predictedDepartureTime": 1581432184,
+					"tripId": "BKK_C08388616",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581432360,
+					"departureTime": 1581432360,
+					"tripId": "BKK_C08388626",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581432360,
+					"departureTime": 1581432360,
+					"predictedArrivalTime": 1581432415,
+					"predictedDepartureTime": 1581432415,
+					"tripId": "BKK_C08507615",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581432480,
+					"departureTime": 1581432480,
+					"tripId": "BKK_C0413461736",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Puskás Ferenc Stadion M",
+					"arrivalTime": 1581432660,
+					"departureTime": 1581432660,
+					"tripId": "BKK_C0862398",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581432780,
+					"departureTime": 1581432780,
+					"tripId": "BKK_C0413461741",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581433080,
+					"departureTime": 1581433080,
+					"tripId": "BKK_C0413461746",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581433260,
+					"departureTime": 1581433260,
+					"tripId": "BKK_C08388624",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581433260,
+					"departureTime": 1581433260,
+					"tripId": "BKK_C08507618",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581433380,
+					"departureTime": 1581433380,
+					"tripId": "BKK_C0413461751",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581433620,
+					"departureTime": 1581433620,
+					"tripId": "BKK_C08388638",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581433680,
+					"departureTime": 1581433680,
+					"tripId": "BKK_C0413461756",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581433980,
+					"departureTime": 1581433980,
+					"tripId": "BKK_C0413461761",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581434160,
+					"departureTime": 1581434160,
+					"tripId": "BKK_C08507621",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581434280,
+					"departureTime": 1581434280,
+					"tripId": "BKK_C0413461766",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581434460,
+					"departureTime": 1581434460,
+					"tripId": "BKK_C08388636",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Puskás Ferenc Stadion M",
+					"arrivalTime": 1581434460,
+					"departureTime": 1581434460,
+					"tripId": "BKK_C08623102",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581434580,
+					"departureTime": 1581434580,
+					"tripId": "BKK_C0413461771",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581434820,
+					"departureTime": 1581434820,
+					"tripId": "BKK_C08388650",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581434880,
+					"departureTime": 1581434880,
+					"tripId": "BKK_C0413461776",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581435060,
+					"departureTime": 1581435060,
+					"tripId": "BKK_C08507661",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581435180,
+					"departureTime": 1581435180,
+					"tripId": "BKK_C0413461781",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Puskás Ferenc Stadion M",
+					"arrivalTime": 1581435420,
+					"departureTime": 1581435420,
+					"tripId": "BKK_C08623104",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581435480,
+					"departureTime": 1581435480,
+					"tripId": "BKK_C0413461786",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581435720,
+					"departureTime": 1581435720,
+					"tripId": "BKK_C08388644",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581435780,
+					"departureTime": 1581435780,
+					"tripId": "BKK_C0413461791",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581436080,
+					"departureTime": 1581436080,
+					"tripId": "BKK_C0413461796",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581436080,
+					"departureTime": 1581436080,
+					"tripId": "BKK_C08388658",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581436080,
+					"departureTime": 1581436080,
+					"tripId": "BKK_C08507667",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Puskás Ferenc Stadion M",
+					"arrivalTime": 1581436200,
+					"departureTime": 1581436200,
+					"tripId": "BKK_C08623106",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581436380,
+					"departureTime": 1581436380,
+					"tripId": "BKK_C0413461801",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581436680,
+					"departureTime": 1581436680,
+					"tripId": "BKK_C0413461806",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Keleti pályaudvar M",
+					"arrivalTime": 1581436980,
+					"departureTime": 1581436980,
+					"tripId": "BKK_C0413461826",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581436980,
+					"departureTime": 1581436980,
+					"tripId": "BKK_C08507670",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Puskás Ferenc Stadion M",
+					"arrivalTime": 1581436980,
+					"departureTime": 1581436980,
+					"tripId": "BKK_C08623108",
+					"serviceDate": "20200211"
+				},
+				{
+					"stopHeadsign": "Örs vezér tere M+H",
+					"arrivalTime": 1581437040,
+					"departureTime": 1581437040,
+					"tripId": "BKK_C08388656",
+					"serviceDate": "20200211"
+				}
+			]
+		},
+		"references": {
+			"agencies": {
+				
+			},
+			"routes": {
+				"BKK_1310": {
+					"id": "BKK_1310",
+					"shortName": "131",
+					"description": "Kisszentmihály, Baross u. | Örs vezér tere M H",
+					"type": "BUS",
+					"color": "009FE3",
+					"textColor": "FFFFFF",
+					"agencyId": "BKK",
+					"iconDisplayType": "BOX",
+					"iconDisplayText": "131",
+					"bikesAllowed": false,
+					"style": {
+						"color": "009FE3",
+						"icon": {
+							"type": "BOX",
+							"text": "131",
+							"textColor": "FFFFFF"
+						}
+					}
+				},
+				"BKK_1300": {
+					"id": "BKK_1300",
+					"shortName": "130",
+					"description": "Újpalota, Sárfű utca | Puskás Ferenc Stadion M",
+					"type": "BUS",
+					"color": "009FE3",
+					"textColor": "FFFFFF",
+					"agencyId": "BKK",
+					"iconDisplayType": "BOX",
+					"iconDisplayText": "130",
+					"bikesAllowed": false,
+					"style": {
+						"color": "009FE3",
+						"icon": {
+							"type": "BOX",
+							"text": "130",
+							"textColor": "FFFFFF"
+						}
+					}
+				},
+				"BKK_1440": {
+					"id": "BKK_1440",
+					"shortName": "144",
+					"description": "R.szentmihály, Csömöri út | Örs vezér tere M H",
+					"type": "BUS",
+					"color": "009FE3",
+					"textColor": "FFFFFF",
+					"agencyId": "BKK",
+					"iconDisplayType": "BOX",
+					"iconDisplayText": "144",
+					"bikesAllowed": false,
+					"style": {
+						"color": "009FE3",
+						"icon": {
+							"type": "BOX",
+							"text": "144",
+							"textColor": "FFFFFF"
+						}
+					}
+				},
+				"BKK_2310": {
+					"id": "BKK_2310",
+					"shortName": "231",
+					"description": "R.palota, Széchenyi tér | Örs vezér tere M H",
+					"type": "BUS",
+					"color": "009FE3",
+					"textColor": "FFFFFF",
+					"agencyId": "BKK",
+					"iconDisplayType": "BOX",
+					"iconDisplayText": "231",
+					"bikesAllowed": false,
+					"style": {
+						"color": "009FE3",
+						"icon": {
+							"type": "BOX",
+							"text": "231",
+							"textColor": "FFFFFF"
+						}
+					}
+				},
+				"BKK_4801": {
+					"id": "BKK_4801",
+					"shortName": "80A",
+					"description": "Keleti pályaudvar M | Csertő utca",
+					"type": "TROLLEYBUS",
+					"color": "FF1609",
+					"textColor": "FFFFFF",
+					"agencyId": "BKK",
+					"iconDisplayType": "BOX",
+					"iconDisplayText": "80A",
+					"bikesAllowed": false,
+					"style": {
+						"color": "FF1609",
+						"icon": {
+							"type": "BOX",
+							"text": "80A",
+							"textColor": "FFFFFF"
+						}
+					}
+				}
+			},
+			"stops": {
+				
+			},
+			"trips": {
+				"BKK_C08507670": {
+					"id": "BKK_C08507670",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507670",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08623108": {
+					"id": "BKK_C08623108",
+					"routeId": "BKK_1300",
+					"shapeId": "BKK_C08623108",
+					"tripHeadsign": "Puskás Ferenc Stadion M",
+					"serviceId": "BKK_C08623AHCMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08507612": {
+					"id": "BKK_C08507612",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507612",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461781": {
+					"id": "BKK_C0413461781",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461781",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C0413461761": {
+					"id": "BKK_C0413461761",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461761",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08507615": {
+					"id": "BKK_C08507615",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507615",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08507618": {
+					"id": "BKK_C08507618",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507618",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461766": {
+					"id": "BKK_C0413461766",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461766",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C0413461801": {
+					"id": "BKK_C0413461801",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461801",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461746": {
+					"id": "BKK_C0413461746",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461746",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461741": {
+					"id": "BKK_C0413461741",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461741",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C0862396": {
+					"id": "BKK_C0862396",
+					"routeId": "BKK_1300",
+					"shapeId": "BKK_C0862396",
+					"tripHeadsign": "Puskás Ferenc Stadion M",
+					"serviceId": "BKK_C08623AHCMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461786": {
+					"id": "BKK_C0413461786",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461786",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461721": {
+					"id": "BKK_C0413461721",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461721",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C08388644": {
+					"id": "BKK_C08388644",
+					"routeId": "BKK_2310",
+					"shapeId": "BKK_C08388644",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0862398": {
+					"id": "BKK_C0862398",
+					"routeId": "BKK_1300",
+					"shapeId": "BKK_C0862398",
+					"tripHeadsign": "Puskás Ferenc Stadion M",
+					"serviceId": "BKK_C08623AHCMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08388624": {
+					"id": "BKK_C08388624",
+					"routeId": "BKK_2310",
+					"shapeId": "BKK_C08388624",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08623102": {
+					"id": "BKK_C08623102",
+					"routeId": "BKK_1300",
+					"shapeId": "BKK_C08623102",
+					"tripHeadsign": "Puskás Ferenc Stadion M",
+					"serviceId": "BKK_C08623AHCMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461726": {
+					"id": "BKK_C0413461726",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461726",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C08388626": {
+					"id": "BKK_C08388626",
+					"routeId": "BKK_1310",
+					"shapeId": "BKK_C08388626",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08623104": {
+					"id": "BKK_C08623104",
+					"routeId": "BKK_1300",
+					"shapeId": "BKK_C08623104",
+					"tripHeadsign": "Puskás Ferenc Stadion M",
+					"serviceId": "BKK_C08623AHCMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461826": {
+					"id": "BKK_C0413461826",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461826",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461806": {
+					"id": "BKK_C0413461806",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461806",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C08623106": {
+					"id": "BKK_C08623106",
+					"routeId": "BKK_1300",
+					"shapeId": "BKK_C08623106",
+					"tripHeadsign": "Puskás Ferenc Stadion M",
+					"serviceId": "BKK_C08623AHCMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08507661": {
+					"id": "BKK_C08507661",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507661",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08388650": {
+					"id": "BKK_C08388650",
+					"routeId": "BKK_1310",
+					"shapeId": "BKK_C08388650",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08507621": {
+					"id": "BKK_C08507621",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507621",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461791": {
+					"id": "BKK_C0413461791",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461791",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C08507667": {
+					"id": "BKK_C08507667",
+					"routeId": "BKK_1440",
+					"shapeId": "BKK_C08507667",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08507AHCLE-0021",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461771": {
+					"id": "BKK_C0413461771",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461771",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461756": {
+					"id": "BKK_C0413461756",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461756",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461736": {
+					"id": "BKK_C0413461736",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461736",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C0413461751": {
+					"id": "BKK_C0413461751",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461751",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C0413461796": {
+					"id": "BKK_C0413461796",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461796",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C0413461731": {
+					"id": "BKK_C0413461731",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461731",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461776": {
+					"id": "BKK_C0413461776",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461776",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C08388656": {
+					"id": "BKK_C08388656",
+					"routeId": "BKK_2310",
+					"shapeId": "BKK_C08388656",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C0413461716": {
+					"id": "BKK_C0413461716",
+					"routeId": "BKK_4801",
+					"shapeId": "BKK_C0413461716",
+					"tripHeadsign": "Keleti pályaudvar M",
+					"serviceId": "BKK_C04134AHCIGy-041",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08388636": {
+					"id": "BKK_C08388636",
+					"routeId": "BKK_2310",
+					"shapeId": "BKK_C08388636",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": false
+				},
+				"BKK_C08388658": {
+					"id": "BKK_C08388658",
+					"routeId": "BKK_1310",
+					"shapeId": "BKK_C08388658",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08388638": {
+					"id": "BKK_C08388638",
+					"routeId": "BKK_1310",
+					"shapeId": "BKK_C08388638",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				},
+				"BKK_C08388616": {
+					"id": "BKK_C08388616",
+					"routeId": "BKK_2310",
+					"shapeId": "BKK_C08388616",
+					"tripHeadsign": "Örs vezér tere M+H",
+					"serviceId": "BKK_C08388AHPMAA-081",
+					"directionId": "1",
+					"bikesAllowed": false,
+					"wheelchairAccessible": true
+				}
+			},
+			"alerts": {
+				
+			}
+		},
+		"class": "entryWithReferences"
+	}
+}

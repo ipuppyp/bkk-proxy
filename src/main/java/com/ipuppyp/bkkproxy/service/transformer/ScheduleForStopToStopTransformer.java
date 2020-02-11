@@ -1,4 +1,4 @@
-package com.ipuppyp.bkkproxy.transformer;
+package com.ipuppyp.bkkproxy.service.transformer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
-import com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain.ScheduleForStop;
+import com.ipuppyp.bkkproxy.delegate.domain.scheduleforstop.ScheduleForStop;
 import com.ipuppyp.bkkproxy.domain.Stop;
 import com.ipuppyp.bkkproxy.domain.StopTime;
 import com.ipuppyp.bkkproxy.entity.StopEntity;
@@ -40,7 +40,7 @@ public class ScheduleForStopToStopTransformer {
 					.map(stopTime -> Integer.toString((getDepartureTime(stopTime) - currentTime) / 60))
 					.collect(Collectors.joining(","));
 				if (!departureTimes.isEmpty()) {
-					myStopTime.setStopHeadsign(direction.getStopTimes().get(0).getStopHeadsign());
+					myStopTime.setTripHeadsign(direction.getStopTimes().get(0).getStopHeadsign());
 					myStopTime.setDeparturesInMins(departureTimes);
 					stopTimes.add(myStopTime);
 				}
@@ -49,7 +49,7 @@ public class ScheduleForStopToStopTransformer {
 		return stop;
 	}
 
-	private Integer getDepartureTime(com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain.StopTime stopTime) {
+	private Integer getDepartureTime(com.ipuppyp.bkkproxy.delegate.domain.scheduleforstop.StopTime stopTime) {
 		return stopTime.getPredictedDepartureTime() != null ? 
 						stopTime.getPredictedDepartureTime() :
 						stopTime.getDepartureTime();

@@ -6,23 +6,23 @@ import java.util.HashSet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ipuppyp.bkkproxy.delegate.ScheduleForStopBusinessApiDelegate;
+import com.ipuppyp.bkkproxy.delegate.ArrivalsAndDeparturesForStopApiDelegate;
 import com.ipuppyp.bkkproxy.domain.Stop;
 import com.ipuppyp.bkkproxy.entity.StopEntity;
 import com.ipuppyp.bkkproxy.repository.StopRepository;
-import com.ipuppyp.bkkproxy.service.transformer.ScheduleForStopToStopTransformer;
+import com.ipuppyp.bkkproxy.service.transformer.ArrivalsAndDeparturesForStopToStopTransformer;
 
 @Service
-public class ScheduleForStopService {
+public class ArrivalsAndDeparturesForStopService {
 
 	@Autowired
 	private StopRepository stopRepository;
 
 	@Autowired
-	ScheduleForStopBusinessApiDelegate scheduleForStopBusinessApiDelegate;
+	ArrivalsAndDeparturesForStopApiDelegate arrivalsAndDeparturesForStopApiDelegate;
 
 	@Autowired
-	ScheduleForStopToStopTransformer scheduleForStopToStopTransformer;
+	ArrivalsAndDeparturesForStopToStopTransformer arrivAndDeparturesToStopTransformer;
 	
 	public Collection<Stop> findAllStops() {
 		
@@ -30,7 +30,8 @@ public class ScheduleForStopService {
 		Collection<Stop> stops = new HashSet<Stop>();
 		
 		stopEntities.forEach(stopEntity -> {
-			stops.add(scheduleForStopToStopTransformer.transform(stopEntity, scheduleForStopBusinessApiDelegate.delegate(stopEntity.getStopId())));
+			stops.add(arrivAndDeparturesToStopTransformer.transform(stopEntity,
+					arrivalsAndDeparturesForStopApiDelegate.delegate(stopEntity.getStopId())));
 		});
 		return stops;
 	}

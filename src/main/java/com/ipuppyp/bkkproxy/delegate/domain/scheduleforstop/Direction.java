@@ -1,5 +1,5 @@
 
-package com.ipuppyp.bkkproxy.delegate.scheduleforstop.domain;
+package com.ipuppyp.bkkproxy.delegate.domain.scheduleforstop;
 
 import java.util.List;
 
@@ -10,19 +10,16 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "stopId",
-    "serviceDate",
-    "schedules"
+    "directionId",
+    "stopTimes"
 })
 @JsonIgnoreProperties(ignoreUnknown = true)
 @lombok.Data
-public class Entry {
+public class Direction {
 
-    @JsonProperty("stopId")
-    private String stopId;
-    @JsonProperty("serviceDate")
-    private String serviceDate;
-    @JsonProperty("schedules")
-    private List<Schedule> schedules;
+    @JsonProperty("directionId")
+    private String directionId;
+    @JsonProperty("stopTimes")
+    private List<StopTime> stopTimes;
 
 }
