@@ -20,18 +20,13 @@ public class StopToPlainTextTransformer {
 					.append(stopTime.getIconDisplayText().length() == 2 ? " " : "")
 					.append(stopTime.getIconDisplayText())
 					.append(" ")
-					.append(replaceUniCodeChars(stopTime.getStopHeadsign().substring(0, placeForStopHeadSign)), (char)160, (char)32)
+					.append(stopTime.getStopHeadsign().substring(0, placeForStopHeadSign))
 					.append(" ")
 					.append(stopTime.getDeparturesInMins())
 					.append("\n");		
 			});
 		});
 		replaceUniCodeChars(result);		
-		for (int i = 0; i < result.length(); i ++) {
-			System.out.print(result.charAt(i));
-			System.out.print(" ");
-			System.out.println((int)result.charAt(i));
-		}
 		return result.toString();
 	}
 	
@@ -56,6 +51,8 @@ public class StopToPlainTextTransformer {
 		replaceUniCodeChars(str, 'Ö', 'O');
 		replaceUniCodeChars(str, 'ő', 'o');
 		replaceUniCodeChars(str, 'Ő', 'o');
+		replaceUniCodeChars(str, 'ú', 'u');
+		replaceUniCodeChars(str, 'Ú', 'U');
 		replaceUniCodeChars(str, 'ü', 'u');
 		replaceUniCodeChars(str, 'Ü', 'U');
 		replaceUniCodeChars(str, 'ű', 'u');
