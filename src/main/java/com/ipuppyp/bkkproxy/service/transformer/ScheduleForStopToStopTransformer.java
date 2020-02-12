@@ -31,7 +31,7 @@ public class ScheduleForStopToStopTransformer {
 		scheduleForStop.getData().getEntry().getSchedules().forEach(schedule -> {
 			schedule.getDirections().forEach(direction -> {
 				StopTime myStopTime = new StopTime();					
-				myStopTime.setRouteId(schedule.getRouteId());					
+				myStopTime.setIconDisplayText(schedule.getRouteId());					
 				
 				String departureTimes = direction.getStopTimes()
 					.stream()
@@ -40,7 +40,7 @@ public class ScheduleForStopToStopTransformer {
 					.map(stopTime -> Integer.toString((getDepartureTime(stopTime) - currentTime) / 60))
 					.collect(Collectors.joining(","));
 				if (!departureTimes.isEmpty()) {
-					myStopTime.setTripHeadsign(direction.getStopTimes().get(0).getStopHeadsign());
+					myStopTime.setStopHeadsign(direction.getStopTimes().get(0).getStopHeadsign());
 					myStopTime.setDeparturesInMins(departureTimes);
 					stopTimes.add(myStopTime);
 				}

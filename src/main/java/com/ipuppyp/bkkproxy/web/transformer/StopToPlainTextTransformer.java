@@ -17,16 +17,30 @@ public class StopToPlainTextTransformer {
 				int placeForStopHeadSign = 16 - 5 - stopTime.getDeparturesInMins().length();
 				if (placeForStopHeadSign < 0) placeForStopHeadSign = 0;
 				result
-					.append(stopTime.getRouteId())
+					.append(stopTime.getIconDisplayText().length() == 2 ? " " : "")
+					.append(stopTime.getIconDisplayText())
 					.append(" ")
-					.append(stopTime.getTripHeadsign().substring(0, placeForStopHeadSign))
+					.append(replaceUniCodeChars(stopTime.getStopHeadsign().substring(0, placeForStopHeadSign)), (char)160, (char)32)
 					.append(" ")
 					.append(stopTime.getDeparturesInMins())
 					.append("\n");		
 			});
 		});
-		replaceUniCodeChars(result);
+		replaceUniCodeChars(result);		
+		for (int i = 0; i < result.length(); i ++) {
+			System.out.print(result.charAt(i));
+			System.out.print(" ");
+			System.out.println((int)result.charAt(i));
+		}
 		return result.toString();
+	}
+	
+	void replaceUniCodeChars(StringBuilder str, char from, char to) {
+		for (int index = 0; index < str.length(); index++) {
+		    if (str.charAt(index) == from) {
+		    	str.setCharAt(index, to);
+		    }
+		}
 	}
 	
 	private void replaceUniCodeChars(StringBuilder str) {
@@ -45,15 +59,8 @@ public class StopToPlainTextTransformer {
 		replaceUniCodeChars(str, 'ü', 'u');
 		replaceUniCodeChars(str, 'Ü', 'U');
 		replaceUniCodeChars(str, 'ű', 'u');
-		replaceUniCodeChars(str, 'Ű', 'u');
-	}
-
-	void replaceUniCodeChars(StringBuilder str, char from, char to) {
-		for (int index = 0; index < str.length(); index++) {
-		    if (str.charAt(index) == from) {
-		    	str.setCharAt(index, to);
-		    }
-		}
+		replaceUniCodeChars(str, 'Ű', 'U');
+		replaceUniCodeChars(str, (char)160, (char)32);
 	}
 	
 	

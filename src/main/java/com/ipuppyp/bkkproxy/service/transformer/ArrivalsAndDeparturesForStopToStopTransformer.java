@@ -3,7 +3,6 @@ package com.ipuppyp.bkkproxy.service.transformer;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
@@ -53,8 +52,8 @@ public class ArrivalsAndDeparturesForStopToStopTransformer {
 				
 				StopTime stopTime = new StopTime();
 				stopTime.setDeparturesInMins(departuresInMins);
-				stopTime.setTripHeadsign(stopHeadSign);
-				stopTime.setRouteId(r.getIconDisplayText());
+				stopTime.setStopHeadsign(stopHeadSign);
+				stopTime.setIconDisplayText(r.getIconDisplayText());
 				stop.getStopTimes().add(stopTime);
 			}
 		});
