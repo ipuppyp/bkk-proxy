@@ -52,7 +52,7 @@ public class ArrivalsAndDeparturesForStopToStopTransformer {
 				
 				StopTime stopTime = new StopTime();
 				stopTime.setDeparturesInMins(departuresInMins);
-				stopTime.setStopHeadsign(stopHeadSign);
+				stopTime.setStopHeadsign(stopHeadSign.trim());
 				stopTime.setIconDisplayText(r.getIconDisplayText());
 				stop.getStopTimes().add(stopTime);
 			}

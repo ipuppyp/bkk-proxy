@@ -1,5 +1,9 @@
 package com.ipuppyp.bkkproxy.web.transformer;
 
+import static com.google.common.base.Strings.padStart;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 
 import org.springframework.stereotype.Component;
@@ -10,26 +14,31 @@ import com.ipuppyp.bkkproxy.domain.Stop;
 public class StopToPlainTextTransformer {
 
 	
+	private static final String DATE_FORMAT = "yyyy/MM/dd HH:mm";
+
 	public String transform(Collection<Stop> schedules) {
 		StringBuilder result = new StringBuilder();
+		
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern(DATE_FORMAT);
+		result.append(dtf.format(LocalDateTime.now()));
+		result.append("\n");
 		schedules.forEach(stop -> {
 			stop.getStopTimes().forEach(stopTime -> {
-				int placeForStopHeadSign = 16 - 5 - stopTime.getDeparturesInMins().length();
+				int placeForStopHeadSign = 16 - 6 - stopTime.getDeparturesInMins().length();
 				if (placeForStopHeadSign < 0) placeForStopHeadSign = 0;
 				result
-					.append(stopTime.getIconDisplayText().length() == 2 ? " " : "")
-					.append(stopTime.getIconDisplayText())
+					.append(padStart(stopTime.getIconDisplayText(), 4, ' '))
 					.append(" ")
-					.append(stopTime.getStopHeadsign().substring(0, placeForStopHeadSign))
+					.append(stopTime.getStopHeadsign().replace('\u00A0',' ').trim().substring(0, placeForStopHeadSign))
 					.append(" ")
 					.append(stopTime.getDeparturesInMins())
-					.append("\n");		
+					.append("\n");
 			});
 		});
 		replaceUniCodeChars(result);		
 		return result.toString();
 	}
-	
+
 	void replaceUniCodeChars(StringBuilder str, char from, char to) {
 		for (int index = 0; index < str.length(); index++) {
 		    if (str.charAt(index) == from) {
@@ -46,7 +55,7 @@ public class StopToPlainTextTransformer {
 		replaceUniCodeChars(str, 'í', 'i');
 		replaceUniCodeChars(str, 'Í', 'I');
 		replaceUniCodeChars(str, 'ó', 'o');
-		replaceUniCodeChars(str, 'Ó', 'ó');
+		replaceUniCodeChars(str, 'Ó', 'O');
 		replaceUniCodeChars(str, 'ö', 'o');
 		replaceUniCodeChars(str, 'Ö', 'O');
 		replaceUniCodeChars(str, 'ő', 'o');
