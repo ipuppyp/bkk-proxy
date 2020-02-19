@@ -1,4 +1,5 @@
 #include <LiquidCrystal.h>
+#include "hungarian_chars_lcd_support.h"
 
 const unsigned int NEW_LINE = 10;
 const unsigned int MAX_LINES = 30;
@@ -13,14 +14,11 @@ unsigned long lastTime;
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
  void setup() {
-  lcd.begin(16, 2);
-  lcd.clear();
-  lcd.setCursor(0,0);
-  lcd.print("   Welcome to   ");  
-  lcd.setCursor(0,1);
-  lcd.print("    BKK Proxy   ");  
-  Serial.begin(9600);
-  
+  lcd.begin(16, 2);  
+  registerChars(lcd);  
+  lcdPrint(lcd, 0, "   Welcome to   ");
+  lcdPrint(lcd, 1, "   BKK Proxy   ");
+  Serial.begin(9600); 
   delay(1000);
 }
 
@@ -55,15 +53,14 @@ void readSerial() {
 void updateDisplay() {
   if (timePassed()) {
     lcd.clear();
-    lcd.setCursor(0,0);
-    lcd.print(lines[counter]);
+    lcdPrint(lcd, 0, lines[counter]);    
     Serial.println(lines[counter]);
     if (++counter == size) {
       counter = 0;  
     }
     else {
       lcd.setCursor(0,1);
-      lcd.print(lines[counter]);
+      lcdPrint(lcd, 1, lines[counter]);    
       Serial.println(lines[counter]);      
     }
   }

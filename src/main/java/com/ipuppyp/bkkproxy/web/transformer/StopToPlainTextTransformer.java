@@ -2,7 +2,8 @@ package com.ipuppyp.bkkproxy.web.transformer;
 
 import static com.google.common.base.Strings.padStart;
 
-import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 
@@ -20,7 +21,7 @@ public class StopToPlainTextTransformer {
 		StringBuilder result = new StringBuilder();
 		
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern(DATE_FORMAT);
-		result.append(dtf.format(LocalDateTime.now()));
+		result.append(dtf.format(ZonedDateTime.now(ZoneId.of("Europe/Paris"))));
 		result.append("\n");
 		schedules.forEach(stop -> {
 			stop.getStopTimes().forEach(stopTime -> {
