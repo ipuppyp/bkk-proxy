@@ -1,7 +1,9 @@
 package com.ipuppyp.bkkproxy.service.transformer;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -33,6 +35,7 @@ public class ArrivalsAndDeparturesForStopToStopTransformer {
 		Collection<Route> restRoutes = restData.getReferences().getRoutes().values();
 		List<com.ipuppyp.bkkproxy.delegate.domain.arrivalsanddeparturesforstop.StopTime> restStopTimes = restData.getEntry().getStopTimes();
 		
+		List<String> includedRoutes = stopEntity.getIncludedRoutes() == null ? Collections.emptyList() : Arrays.asList(stopEntity.getIncludedRoutes().split(","));
 		
 		restRoutes.forEach(r -> {
 			List<String> tripsOfRoute =  restTrips
@@ -41,20 +44,23 @@ public class ArrivalsAndDeparturesForStopToStopTransformer {
 				.map(t -> t.getId()).collect(Collectors.toList());
 
 			if (!tripsOfRoute.isEmpty()) {				
-				String departuresInMins = restStopTimes.stream()
-						.filter(st -> tripsOfRoute.contains(st.getTripId()))
-						.limit(2)
-						.map(st -> calculateDepartureInMins(currentTime, st))
-						.collect(Collectors.joining(","));
-				
 				String stopHeadSign = restStopTimes.stream()
 						.filter(st -> tripsOfRoute.contains(st.getTripId())).findAny().get().getStopHeadsign();
 				
-				StopTime stopTime = new StopTime();
-				stopTime.setDeparturesInMins(departuresInMins);
-				stopTime.setStopHeadsign(stopHeadSign.trim());
-				stopTime.setIconDisplayText(r.getIconDisplayText());
-				stop.getStopTimes().add(stopTime);
+				if (stopEntity.getIncludedRoutes() == null || includedRoutes.contains(r.getIconDisplayText())) {					
+					String departuresInMins = restStopTimes.stream()
+							.filter(st -> tripsOfRoute.contains(st.getTripId()))
+							.limit(2)
+							.map(st -> calculateDepartureInMins(currentTime, st))
+							.collect(Collectors.joining(","));
+					
+					
+					StopTime stopTime = new StopTime();
+					stopTime.setDeparturesInMins(departuresInMins);
+					stopTime.setStopHeadsign(stopHeadSign);
+					stopTime.setIconDisplayText(r.getIconDisplayText());
+					stop.getStopTimes().add(stopTime);
+				}
 			}
 		});
 		return stop;

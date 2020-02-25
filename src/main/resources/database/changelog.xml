@@ -63,5 +63,22 @@
 		</insert>
 	</changeSet>
 	
-	 
+	<changeSet author="ipuppyp" id="5_add_stops">
+		<insert tableName="STOP">
+			<column name="STOP_ID" value="BKK_F02783" />
+			<column name="NAME" value="Fischer István utca (Kifelé)" />
+			<column name="ENABLED" value="TRUE" />
+		</insert>		
+	</changeSet>
+	
+	<changeSet author="ipuppyp" id="6_alter_table_stop_add_stopHeadSings">
+		<addColumn tableName="STOP">
+			<column name="INCLUDED_ROUTES" type="varchar(255)"/>
+		</addColumn>
+		<update tableName="STOP">
+			<column name="INCLUDED_ROUTES" value="80"/>
+        	<where>STOP_ID='BKK_F02783'</where>
+		</update>
+	</changeSet>
+	
 </databaseChangeLog>

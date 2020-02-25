@@ -28,4 +28,7 @@ public class StopEntity {
 	
 	@NotNull
 	private Boolean enabled;
+	
+	private String includedRoutes;
+	
 }
