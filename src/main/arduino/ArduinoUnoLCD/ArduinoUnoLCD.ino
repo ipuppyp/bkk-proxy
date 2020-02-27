@@ -15,7 +15,7 @@ LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
  void setup() {
   lcd.begin(16, 2);  
-  registerChars(lcd);  
+  registerChars(lcd);
   lcdPrint(lcd, 0, "   Welcome to   ");
   lcdPrint(lcd, 1, "   BKK Proxy   ");
   Serial.begin(9600); 
@@ -54,7 +54,8 @@ void updateDisplay() {
   if (timePassed()) {
     lcd.clear();
     lcdPrint(lcd, 0, lines[counter]);    
-    Serial.println(lines[counter]);
+    Serial.println(lines[counter]);    
+    
     if (++counter == size) {
       counter = 0;  
     }

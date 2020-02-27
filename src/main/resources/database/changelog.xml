@@ -81,4 +81,12 @@
 		</update>
 	</changeSet>
 	
+	<changeSet author="ipuppyp" id="7_add_stop">
+		<insert tableName="STOP">
+			<column name="STOP_ID" value="BKK_F02785" />
+			<column name="NAME" value="Fischer István utca (81)" />
+			<column name="ENABLED" value="TRUE" />
+		</insert>		
+	</changeSet>
+	
 </databaseChangeLog>
